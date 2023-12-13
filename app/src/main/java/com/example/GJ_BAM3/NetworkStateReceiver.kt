@@ -12,7 +12,7 @@ class NetworkStateReceiver : BroadcastReceiver() {
         val connectivityManager = context?.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         val networkInfo = connectivityManager.activeNetworkInfo
         Log.d("Connection info", "Is connected: ${networkInfo?.isConnected}")
-        Log.d("dwedwdwedwed", networkInfo.toString());
+        Log.d("Network info:", networkInfo.toString());
         Log.d("Connection info", "Type: ${networkInfo?.type} ${ConnectivityManager.TYPE_WIFI} ")
     }
 }
