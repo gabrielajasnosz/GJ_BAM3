@@ -1,4 +1,4 @@
-package com.example.gj_bam_content_provider.ui.theme
+package com.example.GJ_BAM3.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

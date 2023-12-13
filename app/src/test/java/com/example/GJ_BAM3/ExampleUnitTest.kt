@@ -1,4 +1,4 @@
-package com.example.gj_bam_content_provider
+package com.example.GJ_BAM3
 
 import org.junit.Test
 

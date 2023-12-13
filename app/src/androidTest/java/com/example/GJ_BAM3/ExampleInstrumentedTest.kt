@@ -1,4 +1,4 @@
-package com.example.gj_bam_content_provider
+package com.example.GJ_BAM3
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.example.gj_bam_content_provider", appContext.packageName)
+        assertEquals("com.example.GJ_BAM3", appContext.packageName)
     }
 }

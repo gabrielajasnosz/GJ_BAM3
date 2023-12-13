@@ -6,10 +6,10 @@ plugins {
 }
 
 android {
-    namespace = "com.example.gj_bam_content_provider"
+    namespace = "com.example.GJ_BAM3"
     compileSdk = 33
     defaultConfig {
-        applicationId = "com.example.gj_bam_content_provider"
+        applicationId = "com.example.GJ_BAM3"
         minSdk =29
         targetSdk =33
         versionCode= 1
@@ -52,6 +52,7 @@ kotlin {
 
 dependencies {
     implementation("androidx.room:room-runtime:2.5.2")
+    implementation("androidx.appcompat:appcompat:1.6.1")
     annotationProcessor("androidx.room:room-compiler:2.5.2")
 
     // To use Kotlin Symbol Processing (KSP)

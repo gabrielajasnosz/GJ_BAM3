@@ -1,4 +1,4 @@
-package com.example.gj_bam_content_provider.ui.theme
+package com.example.GJ_BAM3.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -38,7 +38,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun Gj_bam_content_providerTheme(
+fun GJ_BAM3(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "gj_bam_content_provider"
+rootProject.name = "GJ_BAM3"
 include(":app")
  
